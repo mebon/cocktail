@@ -44,7 +44,7 @@ export default class Navi extends Component {
                 <NavLink href="/search/"><b>Search</b></NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://github.com/mebon">
+                <NavLink href="https://github.com/mebon/cocktail">
                   <b>GitHub</b>
                 </NavLink>
               </NavItem>

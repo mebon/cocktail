@@ -2,19 +2,19 @@ var style = {
     backgroundColor: "#525252",
     borderTop: "1px solid #E7E7E7",
     textAlign: "Mebonbar",
-    padding: "20px",
+    padding: "0px",
     position: "fixed",
     left: "0",
     bottom: "0",
-    height: "20px",
+    height: "0px",
     width: "100%",
 }
 
 var phantom = {
   display: 'block',
-  padding: '1px',
+  padding: '40%',
   height: '1px',
-  width: '100%',
+  width: '1px',
 }
 
 function Footer({ children }) {

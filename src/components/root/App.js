@@ -5,7 +5,7 @@ import Main from '../main/Main';
 import SeachPage from "../search/SearchPage";
 import Cocktails from '../cocktail/Cocktails';
 import FirstPage from '../firstPage/FirstPage';
-import cocktailDeneme from "../../image/cocktailBackground.jpg";
+import cocktailBackground from "../../image/cocktailBackground.png";
 import NotFound from '../empty/NotFound';
 import Footer from '../navi/Footer';
 import SelectedCocktail from '../search/SelectedCocktail';
@@ -15,11 +15,11 @@ export default class App extends Component {
 render(){
   return (
     <div style={{
-      background: `url(${process.env.PUBLIC_URL + cocktailDeneme})` ,
+      background: `url(${process.env.PUBLIC_URL + cocktailBackground})` ,
       //backgroundPosition : 'center',
       backgroundRepeat : "no-repeat",
       backgroundAttachment : "fixed",
-      //backgroundPosition : 'sticky',
+      backgroundPosition : 'sticky',
       backgroundSize :"100% 100%",
       backgroundColor :'black',
       color:'white',

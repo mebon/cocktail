@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Col, Button, } from "reactstrap";
-import logontext from "../../image/logontext.png";
+import logontext from "../../image/logontext2.png";
 import Footer from "../navi/Footer";
 
 export default class FirstPage extends Component {
@@ -13,7 +13,7 @@ export default class FirstPage extends Component {
         width: "500px",
         height: "1000px",
         position: "sticky",
-        left: "35%",
+        left: "36%",
         top: "10%",
       }}>
                 <a href="/main/" ><img src={logontext} ></img></a>

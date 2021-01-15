@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Footer from "../navi/Footer";
 import Navi from "../navi/Navi";
 import SearchForm from "./SearchForm";
 
@@ -16,7 +17,6 @@ export default class SeachPage extends Component {
         }}>
 
         </p>
-        
       </div>
 
     );
