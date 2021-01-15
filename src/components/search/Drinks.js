@@ -5,7 +5,7 @@ const Drinks = props => (
     <Container>
         <Row>
             
-            {props.drinks.map((drink) => {
+            {props.drinks && props.drinks.map((drink) => {
                 return (
                     
                     <Col md-4 style={{
