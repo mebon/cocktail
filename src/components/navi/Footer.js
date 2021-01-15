@@ -11,7 +11,6 @@ var style = {
 }
 
 var phantom = {
-  display: 'block',
   padding: '40%',
   height: '1px',
   width: '1px',
