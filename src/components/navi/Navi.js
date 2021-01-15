@@ -35,17 +35,17 @@ export default class Navi extends Component {
           <Collapse isOpen={this.isOpen} navbar>
             <Nav className="mr-auto" navbar>
               <NavItem >
-                <NavLink href="/main/"><b>Main Page</b></NavLink>
+                <NavLink href="/main/"><b>| Main Page |</b></NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/cocktails/"><b>Cocktail List</b></NavLink>
+                <NavLink href="/cocktails/"><b>| Categories |</b></NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/search/"><b>Search</b></NavLink>
+                <NavLink href="/search/"><b>| Search |</b></NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="https://github.com/mebon/cocktail">
-                  <b>GitHub</b>
+                  <b>| GitHub |</b>
                 </NavLink>
               </NavItem>
             </Nav>
