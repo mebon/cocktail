@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Navi from "../navi/Navi";
 import SearchForm from "./SearchForm";
 
-export default class Search extends Component {
+export default class SeachPage extends Component {
 
   render() {
     return (

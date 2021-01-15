@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Col, Button, } from "reactstrap";
-//import cocktailDeneme from "../../cocktailDeneme.jpg";
 import logontext from "../../image/logontext.png";
 import Footer from "../navi/Footer";
 

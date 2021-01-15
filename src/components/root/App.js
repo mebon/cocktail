@@ -2,13 +2,13 @@ import React, {Component} from 'react';
 import { Container } from 'reactstrap';
 import { Route, Switch} from "react-router-dom";
 import Main from '../main/Main';
-import Search from "../search/Search";
+import SeachPage from "../search/SearchPage";
 import Cocktails from '../cocktail/Cocktails';
 import FirstPage from '../firstPage/FirstPage';
 import cocktailDeneme from "../../image/cocktailBackground.jpg";
 import NotFound from '../empty/NotFound';
-import SearchCocktail from '../search/SearchCocktail';
 import Footer from '../navi/Footer';
+import SelectedCocktail from '../search/SelectedCocktail';
 
 export default class App extends Component {
 
@@ -26,33 +26,20 @@ render(){
       
       }}>
     
-   
-    <div style={{
-        //backgroundImage: `url(${process.env.PUBLIC_URL + cocktailDeneme})` ,
-        //backgroundPosition : 'absolute',
-        //
-        //backgroundRepeat: 'repeat-y',
-        //backgroundSize: 'cover',
-        //width:'100%',
-        //height:'1000px',
-        //backgroundColor:'#101010',
-
-    }}>
-
       <Container>
         <Switch >
           <Route path="/" exact component={FirstPage}/>
           <Route path="/main" exact component={Main}/>
-          <Route path="/search" exact component={Search}/>
+          <Route path="/search" exact component={SeachPage}/>
           <Route path="/cocktails/" exact component={Cocktails}/> 
-          <Route path="/search/:idDrink" exact component={SearchCocktail}/>
+          <Route path="/search/:idDrink" exact component={SelectedCocktail}/>
           <Route component={NotFound} />
 
         </Switch>
         <Footer></Footer>
 
       </Container>
-    </div> </div>
+    </div>
   );
   }
   }

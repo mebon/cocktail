@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import Form from "./Form";
-import Drinks from "./Drinks";
+import SearchInput from "./SearchInput";
+import DrinksList from "./DrinksList";
 import { Container } from "reactstrap";
 class SearchForm extends Component {
 
@@ -21,8 +21,8 @@ class SearchForm extends Component {
     return (
       <div className="App">
         <Container>
-        <Form getDrink={this.getDrink} />
-        <Drinks drinks={this.state.drinks}/>
+        <SearchInput getDrink={this.getDrink} />
+        <DrinksList drinks={this.state.drinks}/>
         </Container>
       </div>
     );

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Navi from '../navi/Navi';
 import { Container, Row, Col } from "reactstrap";
 
-export default class SearchCocktail extends Component {
+export default class SelectedCocktail extends Component {
     state = {
         activeDrink: []
     }

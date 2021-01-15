@@ -1,7 +1,7 @@
 import React from 'react';
 import {InputGroup,InputGroupAddon,Button,Input} from "reactstrap"
 
-const Form =props=>(
+const SearchInput =props=>(
     <form onSubmit={props.getDrink} style={{marginBottom:"2rem"}}>
         <InputGroup>
         <InputGroupAddon addonType="prepend"><Button className="searchBar__input">Search</Button></InputGroupAddon>
@@ -11,4 +11,4 @@ const Form =props=>(
     </form>
 )
 
-export default Form;
+export default SearchInput;

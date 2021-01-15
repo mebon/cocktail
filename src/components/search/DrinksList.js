@@ -1,7 +1,7 @@
 import React from "react";
 import { Link} from "react-router-dom";
 import { Col, Container, Row } from "reactstrap";
-const Drinks = props => (
+const DrinksList = props => (
     <Container>
         <Row>
             
@@ -40,4 +40,4 @@ const Drinks = props => (
     </Container>
 )
 
-export default Drinks;
+export default DrinksList;

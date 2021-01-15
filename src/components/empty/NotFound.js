@@ -6,7 +6,7 @@ export default class NotFound extends Component {
         return (
             <div>
                 <Navi/>
-               <h1>Cocktail Not Found!!</h1>
+               <h1>Page Not Found!!</h1>
             </div>
         )
     }
