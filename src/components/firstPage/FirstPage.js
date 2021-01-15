@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import { Col, Button, } from "reactstrap";
 //import cocktailDeneme from "../../cocktailDeneme.jpg";
 import logontext from "../../image/logontext.png";
+import Footer from "../navi/Footer";
+
 export default class FirstPage extends Component {
 
 
@@ -22,7 +24,7 @@ export default class FirstPage extends Component {
           <Button size="lg" block href="/search/">Search</Button><br/>          
         </Col>
 
-
+      <Footer></Footer>
       </div>
 
     );

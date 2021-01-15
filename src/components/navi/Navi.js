@@ -29,8 +29,8 @@ export default class Navi extends Component {
     return (
       <div>
         <Navbar color="dark" light expand="md" >
-          <NavbarBrand href="/" ><img height="40" src={logo}></img></NavbarBrand>
-          <NavbarBrand href="/" ><img height="30" src={text}></img></NavbarBrand>
+          <NavbarBrand href="/" ><img height="40" src={logo} alt="logo"></img></NavbarBrand>
+          <NavbarBrand href="/" ><img height="30" src={text} alt="text"></img></NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.isOpen} navbar>
             <Nav className="mr-auto" navbar>
@@ -51,7 +51,6 @@ export default class Navi extends Component {
             </Nav>
           </Collapse>
         </Navbar>
-       
       </div>
       
     );

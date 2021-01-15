@@ -1,6 +1,6 @@
 import React, { Component, dropdownItem } from "react";
 import { ButtonGroup } from 'reactstrap';
-import Drinks from "./Drinks";
+import Drinks from "../search/Drinks";
 
 class CocktailForm extends Component {
 

@@ -32,7 +32,6 @@ const Drinks = props => (
 
                         </div>
                         <br />
-
                     </Col>
                 )
             })}

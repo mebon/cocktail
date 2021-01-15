@@ -8,6 +8,7 @@ import FirstPage from '../firstPage/FirstPage';
 import cocktailDeneme from "../../image/cocktailBackground.jpg";
 import NotFound from '../empty/NotFound';
 import SearchCocktail from '../search/SearchCocktail';
+import Footer from '../navi/Footer';
 
 export default class App extends Component {
 
@@ -48,7 +49,8 @@ render(){
           <Route component={NotFound} />
 
         </Switch>
-        
+        <Footer></Footer>
+
       </Container>
     </div> </div>
   );

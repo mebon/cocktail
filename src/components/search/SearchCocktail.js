@@ -27,7 +27,7 @@ export default class SearchCocktail extends Component {
                 }}>
                     <Row>
                         <Col xs="5">
-                            <br /> <img src={drink.strDrinkThumb} height="400px"></img>
+                            <br /> <img src={drink.strDrinkThumb} alt={drink.strDrink}height="400px"></img>
 
                         </Col>
                         <Col xs="7">

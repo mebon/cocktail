@@ -9,6 +9,7 @@ export default class Search extends Component {
       <div>
         <Navi/>
         <SearchForm></SearchForm>
+        <br/>
         <p style={{
           color: "#ffffff",
           marginLeft: "44%",
